@@ -17,7 +17,7 @@ class Person:
 
 if __name__ == "__main__":
     test_name = "test_name"
-    test_age = 80
+    test_age = 90
     person = Person(test_name, test_age)
     if person.getAge() != test_age:
         print("Error: Age should be " + str(test_age) + " but i got " + str(person.getAge()))
